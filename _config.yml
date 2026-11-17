@@ -1,0 +1,37 @@
+title: Zhouwanyue Nata Yang 杨舟晚月
+description: Zhouwanyue Nata Yang's academic website. 杨舟晚月的学术网站。
+lang: en
+url: ""
+baseurl: ""
+destination: dist
+strict_front_matter: true
+markdown: kramdown
+
+navigation:
+  - title: Bio
+    url: /
+  - title: CV
+    url: /documents/CV_ZNYang_2026.pdf
+  - title: Teaching
+    url: /teaching/
+  # - title: Research
+  #   url: /research/
+  - title: Contact
+    url: /contact/
+  # - title: Links
+  #   url: /links/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - scripts
+  - vendor
+  - .bundle
+  - .openai
